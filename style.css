@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+  background: linear-gradient(to right, #4d31b5, #3224ae);
+}
+.background {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 90vh;
+}
+.color-toggle {
+  background-color: #121212;
+}
+.menu {
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  font-family: 'Berkshire Swash', sans-serif;
+  font-size: 2rem;
+  margin-left: 2rem;
+}
+.nav {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: flex-end;
+}
+.nav-link {
+  font-size: 1rem;
+  margin: 1rem;
+  text-decoration: none;
+  letter-spacing: 0.1rem;
+  color: #fff;
+}
+.small-line {
+  display: block;
+  border-bottom: 0.1rem solid #fff;
+  border-radius: 50%;
+  padding-top: 0.5rem;
+  width: 20px;
+  margin: 0 auto;
+}
+.text {
+  width: 50%;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.title {
+  line-height: 2.5rem;
+  font-size: 2rem;
+  font-weight: normal;
+  text-align: left;
+  margin: 3rem;
+}
+.footer {
+  padding: 1rem;
+  color: #767376;
+  background-color: #eee;
+  text-align: center;
+}
+.footer-item {
+  font-size: 1.2rem;
+  margin-left: 5rem;
+  font-weight: bold;
+}
+.footer-text {
+  margin-right: 3rem;
+}
+/* style for smaller screens */
+@media only screen and (max-width: 1000px) {
+  .nav-link {
+    margin: 0.5rem;
+  }
+  .footer-item {
+    font-size: 0.8rem;
+    margin-left: 0.5rem;
+  }
+  .text {
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .nav-link {
+    margin: 0.4rem;
+    font-size: 0.8rem;
+  }
+  .text {
+    width: 80%;
+  }
+}
